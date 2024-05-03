@@ -1,5 +1,7 @@
 import Link from "next/link"
-export default function Header() {
+import Image from "next/image"
+export default function 
+Header() {
 return(
   <>
     <header className="flex items-center justify-between">
@@ -8,10 +10,11 @@ return(
       Aurelia Pizza
       </Link>
       <nav className="flex gap-8 text-gray-500 items-center font-semibold">
+      {/* <Image src={'/pizzon.png'} layout={'fill'} objectFit={'contain'} alt={'pizza'} /> */}
         <Link href={''}>Home</Link>
-        <Link href={''}>Menu</Link>
-        <Link href={''}>About</Link>
-        <Link href={''}>Contact</Link>
+        <Link href={''}>PRODUCTS</Link>
+        <Link href={''}>PAGES</Link>
+        <Link href={''}>BLOG</Link>
         <Link href={''}
         className="bg-primary text-white  px-8 py-2 rounded-full">Login</Link>
       </nav>
