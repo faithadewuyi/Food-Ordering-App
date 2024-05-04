@@ -1,5 +1,6 @@
 import Hero from "@/Components/Hero";
 import Header from "@/Components/Layout/Header";
+import HomeMenu from "@/Components/Layout/HomeMenu";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
     <Header/>
     <Hero/>
+    <HomeMenu/>
     </>
   );
 }
