@@ -1,4 +1,5 @@
 import Image from "next/image"
+import MenuItems from "../Menu/MenuItems"
 export default function HomeMenu(){
   return(
    <section>
@@ -10,19 +11,17 @@ export default function HomeMenu(){
           <Image src={'/sallad2.png'} width={107} height={195} alt={'sallad'} />
         </div>
       </div>
-     <div className="text-center">
+     <div className="text-center mb-4">
       <h3 className=" text-gray-500 font-semibold leading-3">CHECK OUT</h3>
       <h2 className="text-primary font-bold text-4xl italic">Menu</h2>
     </div>
     <div className="grid grid-cols-3 gap-4">
-      <div className="bg-gray-300 p-4 rounded-lg text-center ">
-        <img src="/pizza1.png" alt="pizza"/>
-        <h4 className="font-semibold my-3">Pepperoni Pizza</h4>
-        <p className="text-gray-500 text-sm">Indulge in the classic favorite, Pepperoni Pizza, featuring a crispy crust, and a generous topping of spicy pepperoni slices.
-        </p>
-        <button className="bg-primary text-white rounded-full px-6 py-2 mt-4"> Add to cart #3,000</button>
- 
-      </div>
+      <MenuItems/>
+      <MenuItems/>
+      <MenuItems/>
+      <MenuItems/>
+      <MenuItems/>
+      <MenuItems/>
     </div>
    </section>
   )
