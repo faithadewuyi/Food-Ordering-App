@@ -1,3 +1,4 @@
+
 export default function MenuItems(){
   return(
     <div>
@@ -14,6 +15,7 @@ export default function MenuItems(){
         <button className="bg-primary text-white rounded-full px-8 py-2 mt-4"> Add to cart #3,000</button>
  
       </div>
+      
     </div>
   )
 }
