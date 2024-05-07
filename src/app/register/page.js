@@ -6,7 +6,7 @@ export default function RegisterPage(){
   const [password, setPassword] = useState(''); 
   function handleFormSubmit(){
     ev.preventDefault();
-    fetchExternalImage('api/register',{
+      fetch('api/register', {
       method: 'POST',
       body: JSON.stringify({email, password}),
       headers: { 'Content-Type': 'application/json'}
