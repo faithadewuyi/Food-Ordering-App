@@ -6,4 +6,4 @@ export async function POST(req) {
   mongoose.connect(process.env.MONGO_URL)
   const createdUser = await User.create()
   return Response.json(createdUser); 
-}
+} 
