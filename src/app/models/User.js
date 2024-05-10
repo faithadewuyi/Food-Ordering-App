@@ -20,4 +20,4 @@ UserSchema.pre('save', (next, ...rest) =>{
 })
 
  const User = models?.User || model('User', UserSchema);
- export default User
+ export default User;
